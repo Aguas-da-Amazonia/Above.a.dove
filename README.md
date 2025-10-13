@@ -58,4 +58,4 @@ Most of them are harmless, and about half of them are capable of triggering a po
 when you create a rule in proxy to block ic.adobe.io
 
 
->>> in [Clash Verge](https://clashverge.net/en/) (available both for macOS & Windows)
+In [Clash Verge](https://clashverge.net/en/) (available both for macOS & Windows) unlike in other proxy servers, you can use a **Tun mode** instead of the regule proxy mode, which will force all traffic to be routed over Clash and as a result all protocols (not just http & https) will be filtered by the rules you create - this a crusial step to make the filter list published here act as expected! 
