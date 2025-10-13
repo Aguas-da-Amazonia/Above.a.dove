@@ -21,3 +21,16 @@ non DNS based peer-to-peer communication
 
 why is this better than blocking with firewall?
 
+For example in case of Acrobat Pro for Windows, it's not enough to block the main .exe, because there's an additional component the runs in the background once Acrobat is started and actively takes part in the telemetry.
+
+it's not enought to block the main 
+
+## A Huge Misconception about blocking
+
+A proxy server is not a firewall. Why?
+
+Every proxy is focused on channeling http and https transit (port 80 and 443), but nothing else!
+If an app decides to establish a directconection via port 6123 for example, then it successfully bypassed the proxy,
+and guess what: Adobe apps do that!
+
+That's the reason why a popular blocklist [a.dove.isdumb.one](https://github.com/ignaciocastro/a-dove-is-dumb) (and all others too) are filled with false positive URLs.
