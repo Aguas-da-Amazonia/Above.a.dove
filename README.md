@@ -18,3 +18,6 @@ Blocking
 Premiere 2025 is a great example that blocking these hosts is useless
 
 non DNS based peer-to-peer communication
+
+why is this better than blocking with firewall?
+
