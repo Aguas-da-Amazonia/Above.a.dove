@@ -27,7 +27,7 @@ it's not enought to block the main
 
 ## A Huge Misconception about blocking
 
-A proxy server is not a firewall. Why?
+A proxy server with blockin rules is not a firewall! Why?
 
 Every proxy is focused on channeling http and https transit (port 80 and 443), but nothing else!
 If an app decides to establish a directconection via port 6123 for example, then it successfully bypassed the proxy,
