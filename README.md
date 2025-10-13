@@ -27,11 +27,11 @@ it's not enought to block the main
 
 ## A Huge Misconception about blocking
 
-A proxy server with blockin rules is not a firewall! Why?
+<ins>A proxy server with blocking rules is not a firewall!</ins>  
+But why not?
 
 Every proxy is focused on channeling http and https transit (port 80 and 443), but nothing else!
-If an app decides to establish a directconection via port 6123 for example, then it successfully bypassed the proxy,
-and guess what: Adobe apps do that!
+If an app decides to establish a connection to a remote server via port 6123 for example, then it just successfully bypassed the proxy, and guess what: Adobe apps do that!
 
 That's the reason why a popular blocklist [a.dove.isdumb.one](https://github.com/ignaciocastro/a-dove-is-dumb) (and all others too) are filled with false positive URLs. Also, every blocklist that targets blocking domains via the /etc/hosts file is generally useless and a timed bomb - but we will get back to this later.
 
@@ -58,3 +58,4 @@ Most of them are harmless, and about half of them are capable of triggering a po
 when you create a rule in proxy to block ic.adobe.io
 
 
+>>> in [Clash Verge](https://clashverge.net/en/) (available both for macOS & Windows)
