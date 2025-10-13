@@ -33,4 +33,28 @@ Every proxy is focused on channeling http and https transit (port 80 and 443), b
 If an app decides to establish a directconection via port 6123 for example, then it successfully bypassed the proxy,
 and guess what: Adobe apps do that!
 
-That's the reason why a popular blocklist [a.dove.isdumb.one](https://github.com/ignaciocastro/a-dove-is-dumb) (and all others too) are filled with false positive URLs.
+That's the reason why a popular blocklist [a.dove.isdumb.one](https://github.com/ignaciocastro/a-dove-is-dumb) (and all others too) are filled with false positive URLs. Also, every blocklist that targets blocking domains via the /etc/hosts file is generally useless and a timed bomb - but we will get back to this later.
+
+Let's first understand what's happening when you are blocking a certain set of domains with a proxy app like Clash, how an app behaves:
+
+Let's say we are blocking:
+
+0.0.0.0  ic.adobe.io  
+0.0.0.0  cc-api-data.adobe.io  
+0.0.0.0  fp.adobestats.io  
+0.0.0.0  hbc.adobe.io  
+0.0.0.0  crs.cr.adobe.com  
+0.0.0.0  gcos.adobe.io  
+0.0.0.0  0mo5a70cqa.adobe.io < ***notice the seemingly random pattern (will talk about this later)***  
+0.0.0.0  1b9khekel6.adobe.io < notice the seemingly random pattern  
+0.0.0.0  1hzopx6nz7.adobe.io < notice the seemingly random pattern
+
+In this example I'll describe the pop up mechanism of Premiere 2025 which I have not seen in earlier versions and is quite worring.
+
+You lounch Photoshop as an example and it will try to connect to a few dozen domains right away.
+Most of them are harmless, and about half of them are capable of triggering a pop up message.
+
+### First mistake with proxy
+when you create a rule in proxy to block ic.adobe.io
+
+
