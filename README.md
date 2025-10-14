@@ -59,3 +59,5 @@ when you create a rule in proxy to block ic.adobe.io
 
 
 In [Clash Verge](https://clashverge.net/en/) (available both for macOS & Windows) unlike in other proxy servers, you can use a **_Tun mode_** instead of the regular **_proxy mode_**, which will force all traffic to be routed over Clash and as a result all protocols (not just http & https) will be filtered by the rules you create - this a crusial step to make the filter list published here act as expected! 
+
+<ins>Understanding the importance of DNS blocking vs /etc/hosts blocking</ins>  
