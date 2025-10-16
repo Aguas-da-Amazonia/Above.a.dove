@@ -1,4 +1,4 @@
-# These entires will block Adobe apps,
+# These entries will block Adobe apps,
 # except AI generation (Firefly), downloads, etc.
 # Pop up window? Report at:
 # https://github.com/Giro-Da-Amazonia/Above.a.dove/issues
