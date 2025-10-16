@@ -5,10 +5,10 @@
 # Last update: 2025-10-16
 .*\.adobe\.com
 .*\.adobe\.io
-(\.|^)adobe.net$
-(\.|^)adobestats.io$
-(\.|^)adobelogin.com$
-(\.|^)adobedc.net$
-(\.|^)adobedtm.com$
-(\.|^)adobeccstatic.com$
-(\.|^)adobegenuine.com$
+.*\.adobe\.net
+.*\.adobestats\.io
+.*\.adobelogin\.com
+.*\.adobedc\.net
+.*\.adobedtm\.com
+.*\.adobeccstatic\.com
+.*\.adobegenuine\.com
