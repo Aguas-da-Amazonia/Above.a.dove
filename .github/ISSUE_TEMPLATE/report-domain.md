@@ -1,5 +1,5 @@
 ---
-name: Custom issue template
+name: Report domain
 about: Describe this issue template's purpose here.
 title: New domain detected
 labels: ''
