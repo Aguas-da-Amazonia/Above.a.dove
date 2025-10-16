@@ -9,3 +9,6 @@
 *.adobestats.io
 *.adobelogin.com
 *.adobedc.net
+*.adobedtm.com
+*.adobeccstatic.com
+*.adobegenuine.com
