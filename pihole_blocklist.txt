@@ -3,12 +3,12 @@
 # Pop up window? Report at:
 # https://github.com/Giro-Da-Amazonia/Above.a.dove/issues
 # Last update: 2025-10-16
-adobe.com$
-adobe.io$
-adobe.net$
-adobestats.io$
-adobelogin.com$
-adobedc.net$
-adobedtm.com$
-adobeccstatic.com$
-adobegenuine.com$
+(\.|^)adobe\.com$
+(\.|^)adobe.io$
+(\.|^)adobe.net$
+(\.|^)adobestats.io$
+(\.|^)adobelogin.com$
+(\.|^)adobedc.net$
+(\.|^)adobedtm.com$
+(\.|^)adobeccstatic.com$
+(\.|^)adobegenuine.com$
