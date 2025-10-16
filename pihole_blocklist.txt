@@ -5,9 +5,9 @@
 # Last update: 2025-10-16
 #
 # These entries are to be added manually to Pi-Hole if running version 5.x
-# as Regex format is not supported anymore in Filter lists
+# as Regex format is not supported anymore in Filter lists.
 #
-# When addig, click on 'Add domain as wildcard' in order to block the subdomains too - without this the blocking will not work!
+# When adding, click on 'Add domain as wildcard' in order to block the subdomains too - without this the blocking will fail!
 #
 adobe.com
 adobe.io
