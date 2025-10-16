@@ -1,0 +1,7 @@
+# These entires unblock the most necessary domains needed for
+# AI generation (Firefly), downloads, etc.
+# Pop up window? Report at:
+# https://github.com/Giro-Da-Amazonia/Above.a.dove/issues
+# Last update: 2025-10-16
+www.adobe.com
+lcs-cops.adobe.io
