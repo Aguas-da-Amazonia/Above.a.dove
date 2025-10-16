@@ -4,7 +4,7 @@
 # https://github.com/Giro-Da-Amazonia/Above.a.dove/issues
 # Last update: 2025-10-16
 \.[a-z]*adobe\.com
-.*\.adobe\.io
+(^|\.)[a-z0-9]*adobe\.io
 .*\.adobe\.net
 .*\.adobestats\.io
 .*\.adobelogin\.com
