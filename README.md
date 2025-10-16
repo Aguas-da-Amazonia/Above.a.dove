@@ -64,5 +64,7 @@ In [Clash Verge](https://clashverge.net/en/) (available both for macOS & Windows
 
 ## Pi-hole
 
-since version 5 Pi-hole does not support Regex in filter lists, as a consequence you'll have to add the domains to be blocked by hand and click on '**Add domain as wildcard**' button in order to block each sdubdomain too.
-...or you install version 4.x
+If you want to perform the blocking centrally, instead of Clash as a proxy you can run your own DNS server - Pi-hole is a free solution.
+
+Since version 5 Pi-hole does not support Regex in filter lists, as a consequence it's not possuble to block subdomains via filter lists (imported and updated via URL) you'll have to add the domains to be blocked by hand and click on '**Add domain as wildcard**' button in order to block each sdubdomain too.
+...or you install version 4.x and use my pihole_v4_blocklist.txt
