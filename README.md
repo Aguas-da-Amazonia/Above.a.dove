@@ -64,4 +64,4 @@ In [Clash Verge](https://clashverge.net/en/) (available both for macOS & Windows
 
 ## Pi-hole
 
-since version 5 Pi-hole does not support Regex in filter lists, as a consequence you'll have to add the domains to be blocked by hand and click on 'Add domain as wildcard' button in order to block each sdubdomain too.
+since version 5 Pi-hole does not support Regex in filter lists, as a consequence you'll have to add the domains to be blocked by hand and click on '**Add domain as wildcard**' button in order to block each sdubdomain too.
