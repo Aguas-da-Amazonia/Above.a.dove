@@ -6,7 +6,7 @@
 #
 # This Filter list is exclusively for Pi-hole 4.x as the newer 5.x version does not support Regex in Filter list
 #
-(\.|^)adobe\.com$
+*.adobe.com
 (\.|^)adobe\.io$
 (\.|^)adobe\.net$
 (\.|^)adobestats\.io$
