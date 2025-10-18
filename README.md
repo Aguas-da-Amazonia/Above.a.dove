@@ -3,7 +3,8 @@
 
 ## Usage
 
-1 install Adobe apps  2 install Clash Verge, change mode forom System Proxy to Tun mode and Activate Tun mode
+1 install Adobe apps  
+2 install Clash Verge, change mode forom System Proxy to Tun mode and Activate Tun mode
 3 add the blocklist and whitelist via URL so they auto-update in the future
 
 if you need to install any additional Adobe app in the future, then disable
