@@ -7,8 +7,8 @@
 2) install Clash Verge, change mode forom System Proxy to Tun mode and Activate Tun mode  
 3) add the blocklist and whitelist via URL so they auto-update in the future
 
-if you need to install any additional Adobe app in the future, then disable
-Clash Verge first, then install and turn Clash Verge back ON.
+if you need to install any additional Adobe app in the future, disable
+Clash first, then install and finally turn Clash Verge back ON.
 
 ## Theory
 there are 2 major category of hosts:
