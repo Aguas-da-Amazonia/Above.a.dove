@@ -1,6 +1,8 @@
 # Above.a.dove
 
 
+A far more effective way of blocking Adobe's telemetry servers, without blocking Generative AI features.
+
 ## Usage
 
 1) install Adobe apps  
