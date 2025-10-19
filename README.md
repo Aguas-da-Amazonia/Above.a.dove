@@ -18,7 +18,7 @@ Depending on the type of installer you have (offline or online)if you may need t
 
 Blocking each app one by one with a Firewall app may be time consuming, not to mentions that blocking the main app is often not enough - for example in case of Acrobat Pro on Windows. Also if you are installing new versions regularly over the years you would again need to block those too.
 
-Instead of the above steps a simple, one time central blocking is enough for the lifetime of your computer. Also it's far superior compared to /etc/hosts file blocking, which by the way became almost useless over the years. If you want to understand why, then continure reading.
+Instead of the above steps, a simple one time central blocking is enough for the lifetime of your computer. Also it's far superior compared to /etc/hosts file blocking, which by the way became almost useless over the years. If you want to understand why, then continure reading.
 
 ## Theory
 there are 2 major category of hosts:
@@ -43,8 +43,6 @@ But why not?
 Every proxy is focused on channeling http and https transit (port 80 and 443), but nothing else!
 If an app decides to establish a connection to a remote server via port 6123 for example, then it just successfully bypassed the proxy, and guess what: Adobe apps do that!
 
-That's the reason why a popular blocklist [a.dove.isdumb.one](https://github.com/ignaciocastro/a-dove-is-dumb) (and all others too) are filled with false positive URLs. Also, every blocklist that targets blocking domains via the /etc/hosts file is generally useless and a timed bomb - but we will get back to this later.
-
 Let's first understand what's happening when you are blocking a certain set of domains with a proxy app like Clash, how an app behaves:
 
 Let's say we are blocking:
@@ -61,7 +59,7 @@ Let's say we are blocking:
 
 In this example I'll describe the pop up mechanism of Premiere 2025 which I have not seen in earlier versions and is quite worring.
 
-You lounch Photoshop as an example and it will try to connect to a few dozen domains right away.
+Upon launching the app will try to connect to a few dozen domains right away.
 Most of them are harmless, and about half of them are capable of triggering a pop up message.
 
 ### First mistake with proxy
