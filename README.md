@@ -11,8 +11,7 @@ Report under [Issues](https://github.com/Giro-Da-Amazonia/Above.a.dove/issues)
 2) install [Clash Verge](https://clashverge.net/en/), change mode from '**System Proxy**' to '**Tun mode**' and activate '**Tun mode**'  
 3) add the blocklist and whitelist via URL so they auto-update in the future
 
-if you need to install any additional Adobe app in the future, disable
-Clash first, then install and finally turn Clash Verge back ON.
+Depending on the type of installer you have (offline or online)if you may need to disable blocking temporarily for the time of the installation.
 
 ## Theory
 there are 2 major category of hosts:
