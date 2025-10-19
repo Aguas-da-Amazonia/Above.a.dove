@@ -2,8 +2,9 @@
 
 
 A far more effective way of blocking Adobe's telemetry servers compared to /etc/hosts file blocking.  
+
 Still got a Genuine or License Pop Up?
-Report under [Issues](https://github.com/Giro-Da-Amazonia/Above.a.dove/issues)
+Report via [Issues](https://github.com/Giro-Da-Amazonia/Above.a.dove/issues)
 
 ## Usage
 
