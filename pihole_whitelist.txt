@@ -7,11 +7,13 @@
 www.adobe.com
 #
 ## Adobe Downloader
+#
 ffc.adobe.io
 ccmdls.adobe.com
 ccmdls.adobe.com
 #
 # Adobe ID login
+#
 lcs-cops.adobe.io
 armmf.adobe.com
 oobe.adobe.com
@@ -19,3 +21,8 @@ ims-na1.adobelogin.com
 auth.services.adobe.com
 ims-prod06.adobelogin.com
 ims-prod07.adobelogin.com
+#
+# Generative AI (Firefly)
+#
+firefly.adobe.io
+
