@@ -25,4 +25,4 @@ ims-prod07.adobelogin.com
 # Generative AI (Firefly)
 #
 firefly.adobe.io
-
+firefly-clio-imaging.adobe.io
