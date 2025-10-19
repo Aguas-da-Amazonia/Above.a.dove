@@ -3,16 +3,19 @@
 # Pop up window? Report at:
 # https://github.com/Giro-Da-Amazonia/Above.a.dove/issues
 # Last update: 2025-10-16
+#
 www.adobe.com
 lcs-cops.adobe.io
-# Adobe Downloader
+#
+## Adobe Downloader
 ffc.adobe.io
 ccmdls.adobe.com
 ccmdls.adobe.com
-# Acrobat login
+#
+# Adobe ID login
 armmf.adobe.com
+oobe.adobe.com
 ims-na1.adobelogin.com
 auth.services.adobe.com
-# other login
 ims-prod06.adobelogin.com
 ims-prod07.adobelogin.com
