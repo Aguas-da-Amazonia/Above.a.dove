@@ -3,7 +3,7 @@
 
 A method that is far superior way of blocking Adobe's telemetry servers compared to /etc/hosts file editing.  
 
-Still got a Genuine or License Pop Up?
+Still got a Genuine or License Pop Up window?
 Report via [Issues](https://github.com/Giro-Da-Amazonia/Above.a.dove/issues)
 
 ## Usage
