@@ -13,6 +13,12 @@ Report under [Issues](https://github.com/Giro-Da-Amazonia/Above.a.dove/issues)
 
 Depending on the type of installer you have (offline or online)if you may need to disable blocking temporarily for the time of the installation.
 
+## Why would you use this method?
+
+Blocking each app one by one with a Firewall app may be time consuming, not to mentions that blocking the main app is often not enough - for example in case of Acrobat Pro on Windows. Also if you are installing new versions regularly over the years you would again need to block those too.
+
+Instead of the above steps a simple, one time central blocking is enough for the lifetime of your computer.
+
 ## Theory
 there are 2 major category of hosts:
 - with permanent dns names like
