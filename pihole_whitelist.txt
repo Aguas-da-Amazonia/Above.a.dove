@@ -5,6 +5,14 @@
 # Last update: 2025-10-16
 www.adobe.com
 lcs-cops.adobe.io
+# Adobe Downloader
 ffc.adobe.io
 ccmdls.adobe.com
 ccmdls.adobe.com
+# Acrobat login
+armmf.adobe.com
+ims-na1.adobelogin.com
+auth.services.adobe.com
+# other login
+ims-prod06.adobelogin.com
+ims-prod07.adobelogin.com
