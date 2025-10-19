@@ -26,3 +26,11 @@ ims-prod07.adobelogin.com
 #
 firefly.adobe.io
 firefly-clio-imaging.adobe.io
+#
+# Adobe Exchange
+#
+exchange.adobe.com
+ccext-public.adobe.io
+appregistry.adobe.io
+assets.adobedtm.com
+cc-api-data.adobe.io
