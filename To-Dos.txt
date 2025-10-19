@@ -1,4 +1,4 @@
-# To-Dos
+To-Dos
 
 1 - setup video  
 2 - detection
