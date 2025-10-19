@@ -1,7 +1,7 @@
 # Above.a.dove
 
 
-A far more effective way of blocking Adobe's telemetry servers compared to /etc/hosts file blocking.  
+A far superior way of blocking Adobe's telemetry servers compared to /etc/hosts file editing.  
 
 Still got a Genuine or License Pop Up?
 Report via [Issues](https://github.com/Giro-Da-Amazonia/Above.a.dove/issues)
