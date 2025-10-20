@@ -50,7 +50,7 @@ rule-providers:
   # 1. WHITELIST PROVIDER (NOW WITH CORRECT URL)
   adobe_whitelist_provider:
     type: http
-    behavior: domain
+    behavior: classical
     url: "https://raw.githubusercontent.com/Aguas-da-Amazonia/Above.a.dove/refs/heads/main/Clash_Adobe_whitelist" 
     interval: 86400
     path: "./rule_providers/adobe_whitelist.yaml"
@@ -58,7 +58,7 @@ rule-providers:
   # 2. BLOCKLIST PROVIDER
   adobe_telemetry_block:
     type: http
-    behavior: domain
+    behavior: classical
     url: "https://raw.githubusercontent.com/Aguas-da-Amazonia/Above.a.dove/refs/heads/main/Clash_Adobe_blocklist"
     interval: 86400
     path: "./rule_providers/adobe_telemetry_block.yaml"
