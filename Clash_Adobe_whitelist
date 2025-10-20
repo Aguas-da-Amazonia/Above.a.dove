@@ -4,47 +4,45 @@
 # https://github.com/Giro-Da-Amazonia/Above.a.dove/issues
 # Last update: 2025-10-20
 
-# Adobe Whitelist Filter List (DOMAIN Type)
-# Destination: DIRECT (Bypasses proxy)
-
+payload:
 # General Website
-DOMAIN,www.adobe.com
+  - DOMAIN,www.adobe.com
 
 # Adobe Downloader
-DOMAIN,ffc.adobe.io
-DOMAIN,ccmdls.adobe.com
+  - DOMAIN,ffc.adobe.io
+  - DOMAIN,ccmdls.adobe.com
 
 # Adobe ID Login
-DOMAIN,lcs-cops.adobe.io
-DOMAIN,armmf.adobe.com
-DOMAIN,oobe.adobe.com
-DOMAIN,ims-na1.adobelogin.com
-DOMAIN,auth.services.adobe.com
-DOMAIN,ims-prod06.adobelogin.com
-DOMAIN,ims-prod07.adobelogin.com
+  - DOMAIN,lcs-cops.adobe.io
+  - DOMAIN,armmf.adobe.com
+  - DOMAIN,oobe.adobe.com
+  - DOMAIN,ims-na1.adobelogin.com
+  - DOMAIN,auth.services.adobe.com
+  - DOMAIN,ims-prod06.adobelogin.com
+  - DOMAIN,ims-prod07.adobelogin.com
 
 # Generative AI (Firefly)
-DOMAIN,clio-assets.adobe.com
-DOMAIN,firefly-cliov2.adobe.com
-DOMAIN,firefly.adobe.com
-DOMAIN,firefly-acs.adobe.io
-DOMAIN,firefly-ae.adobe.io
-DOMAIN,firefly-ai.adobe.io
-DOMAIN,firefly-api.adobe.io
-DOMAIN,firefly-clio-imaging.adobe.io
-DOMAIN,firefly-md.adobe.io
-DOMAIN,firefly-ps.adobe.io
-DOMAIN,firefly-st.adobe.io
-DOMAIN,firefly.adobe.io
-DOMAIN,sensei-ue1.adobe.io
-DOMAIN,sensei-va6.adobe.io
-DOMAIN,sensei.adobe.io
-DOMAIN,senseicore-ue1.adobe.io
-DOMAIN,senseicore.adobe.io
+  - DOMAIN,clio-assets.adobe.com
+  - DOMAIN,firefly-cliov2.adobe.com
+  - DOMAIN,firefly.adobe.com
+  - DOMAIN,firefly-acs.adobe.io
+  - DOMAIN,firefly-ae.adobe.io
+  - DOMAIN,firefly-ai.adobe.io
+  - DOMAIN,firefly-api.adobe.io
+  - DOMAIN,firefly-clio-imaging.adobe.io
+  - DOMAIN,firefly-md.adobe.io
+  - DOMAIN,firefly-ps.adobe.io
+  - DOMAIN,firefly-st.adobe.io
+  - DOMAIN,firefly.adobe.io
+  - DOMAIN,sensei-ue1.adobe.io
+  - DOMAIN,sensei-va6.adobe.io
+  - DOMAIN,sensei.adobe.io
+  - DOMAIN,senseicore-ue1.adobe.io
+  - DOMAIN,senseicore.adobe.io
 
 # Adobe Exchange
-DOMAIN,exchange.adobe.com
-DOMAIN,ccext-public.adobe.io
-DOMAIN,appregistry.adobe.io
-DOMAIN,assets.adobedtm.com
-DOMAIN,cc-api-data.adobe.io
+  - DOMAIN,exchange.adobe.com
+  - DOMAIN,ccext-public.adobe.io
+  - DOMAIN,appregistry.adobe.io
+  - DOMAIN,assets.adobedtm.com
+  - DOMAIN,cc-api-data.adobe.io
