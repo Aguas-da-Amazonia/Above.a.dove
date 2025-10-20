@@ -24,8 +24,23 @@ ims-prod07.adobelogin.com
 #
 # Generative AI (Firefly)
 #
-firefly.adobe.io
+clio-assets.adobe.com
+firefly-cliov2.adobe.com
+firefly.adobe.com
+firefly-acs.adobe.io
+firefly-ae.adobe.io
+firefly-ai.adobe.io
+firefly-api.adobe.io
 firefly-clio-imaging.adobe.io
+firefly-md.adobe.io
+firefly-ps.adobe.io
+firefly-st.adobe.io
+firefly.adobe.io
+sensei-ue1.adobe.io
+sensei-va6.adobe.io
+sensei.adobe.io
+senseicore-ue1.adobe.io
+senseicore.adobe.io
 #
 # Adobe Exchange
 #
