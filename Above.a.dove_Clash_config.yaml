@@ -1,53 +1,67 @@
-# General Configuration
+# ----------------------------------------------------
+# Base Configuration for TUN Mode (System-wide Interception)
+# ----------------------------------------------------
 port: 7890
 socks-port: 7891
 allow-lan: false
-mode: rule # Use rule mode for filtering
+mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 
-# DNS Configuration (Recommended for better filtering)
+# ----------------------------------------------------
+# DNS Configuration (Recommended for privacy and Fake-IP for optimal filtering)
+# ----------------------------------------------------
 dns:
   enable: true
   listen: 0.0.0.0:5353
   enhanced-mode: fake-ip
   default-nameserver:
-    - 1.1.1.1        # Cloudflare
+    - 1.1.1.1        # Cloudflare (Recommended, privacy-focused)
     - 8.8.8.8        # Google
   nameserver:
     - https://dns.cloudflare.com/dns-query # DNS over HTTPS (DoH)
     - https://dns.google/dns-query         # DNS over HTTPS (DoH)
 
-# --- Proxy Definitions (Minimal for TUN mode) ---
+# ----------------------------------------------------
+# Proxy Definitions (Minimal: Direct and Reject actions)
+# ----------------------------------------------------
 proxies:
-  # Clash always needs at least one defined proxy, even if you use DIRECT/REJECT
-  # This is a placeholder for basic connectivity if needed
   - {name: "Direct", type: direct}
   - {name: "Reject", type: reject}
 
-# --- Proxy Groups (Define actions) ---
+# ----------------------------------------------------
+# Proxy Groups (Define actions)
+# ----------------------------------------------------
 proxy-groups:
-  # 1. Group for traffic that should be blocked
-  - name: BLOCK
+  - name: BLOCK # Destination for blocked domains
     type: select
     proxies:
       - Reject
 
-  # 2. Group for all other traffic (send directly to the internet)
-  - name: GLOBAL
+  - name: GLOBAL # Destination for all allowed traffic
     type: select
     proxies:
       - Direct
 
-# --- Rule Provider (Fetches the external list) ---
+# ----------------------------------------------------
+# Rule Providers (Define external lists)
+# ----------------------------------------------------
 rule-providers:
+  # 1. WHITELIST PROVIDER (NOW WITH CORRECT URL)
+  adobe_whitelist_provider:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Aguas-da-Amazonia/Above.a.dove/refs/heads/main/Clash_Adobe_whitelist.yaml" 
+    interval: 86400
+    path: "./rule_providers/adobe_whitelist.yaml"
+
+  # 2. BLOCKLIST PROVIDER
   adobe_telemetry_block:
     type: http
-    behavior: domain # Rules will use DOMAIN-SUFFIX, DOMAIN, etc.
-    # Your specified GitHub URL for the domain-suffix list
+    behavior: domain
     url: "https://raw.githubusercontent.com/Aguas-da-Amazonia/Above.a.dove/refs/heads/main/Clash_Adobe_block_list"
-    interval: 86400 # Update rules every 24 hours (86400 seconds)
-    path: "./rule_providers/adobe_telemetry_block.yaml" # Local storage path
+    interval: 86400
+    path: "./rule_providers/adobe_telemetry_block.yaml"
 
 # ----------------------------------------------------
 # Rules Section (Order is CRITICAL: Whitelist must be first)
