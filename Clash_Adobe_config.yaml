@@ -1,0 +1,69 @@
+# General Configuration
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule # Use rule mode for filtering
+log-level: info
+external-controller: 127.0.0.1:9090
+
+# DNS Configuration (Recommended for better filtering)
+dns:
+  enable: true
+  listen: 0.0.0.0:5353
+  enhanced-mode: fake-ip
+  default-nameserver:
+    - 1.1.1.1        # Cloudflare
+    - 8.8.8.8        # Google
+  nameserver:
+    - https://dns.cloudflare.com/dns-query # DNS over HTTPS (DoH)
+    - https://dns.google/dns-query         # DNS over HTTPS (DoH)
+
+# --- Proxy Definitions (Minimal for TUN mode) ---
+proxies:
+  # Clash always needs at least one defined proxy, even if you use DIRECT/REJECT
+  # This is a placeholder for basic connectivity if needed
+  - {name: "Direct", type: direct}
+  - {name: "Reject", type: reject}
+
+# --- Proxy Groups (Define actions) ---
+proxy-groups:
+  # 1. Group for traffic that should be blocked
+  - name: BLOCK
+    type: select
+    proxies:
+      - Reject
+
+  # 2. Group for all other traffic (send directly to the internet)
+  - name: GLOBAL
+    type: select
+    proxies:
+      - Direct
+
+# --- Rule Provider (Fetches the external list) ---
+rule-providers:
+  adobe_telemetry_block:
+    type: http
+    behavior: domain # Rules will use DOMAIN-SUFFIX, DOMAIN, etc.
+    # Your specified GitHub URL for the domain-suffix list
+    url: "https://raw.githubusercontent.com/Aguas-da-Amazonia/Above.a.dove/refs/heads/main/Clash_Adobe_block_list"
+    interval: 86400 # Update rules every 24 hours (86400 seconds)
+    path: "./rule_providers/adobe_telemetry_block.yaml" # Local storage path
+
+# ----------------------------------------------------
+# Rules Section (Order is CRITICAL: Whitelist must be first)
+# ----------------------------------------------------
+rules:
+  # 1. WHITELIST: Send specific services directly (Highest priority)
+  - RULE-SET,adobe_whitelist_provider,GLOBAL
+
+  # 2. BLOCKLIST: Reject all broader telemetry (Lower priority)
+  - RULE-SET,adobe_telemetry_block,BLOCK
+
+  # 3. Block internal loopback and private addresses
+  - IP-CIDR,127.0.0.0/8,Reject,no-resolve
+  - IP-CIDR,10.0.0.0/8,Reject,no-resolve
+  - IP-CIDR,172.16.0.0/12,Reject,no-resolve
+  - IP-CIDR,192.168.0.0/16,Reject,no-resolve
+
+  # 4. FINAL FALLBACK: Send everything else directly to the Internet
+  - MATCH,GLOBAL
