@@ -1,0 +1,15 @@
+# These entries will block Adobe apps reaching Telemetry servers,
+# except AI generation (Firefly), downloads, etc.
+# Pop up window? Report at:
+# https://github.com/Giro-Da-Amazonia/Above.a.dove/issues
+# Last update: 2025-10-20
+#
+DOMAIN-SUFFIX,adobe.com,REJECT
+DOMAIN-SUFFIX,adobe.io,REJECT
+DOMAIN-SUFFIX,adobe.net,REJECT
+DOMAIN-SUFFIX,adobestats.io,REJECT
+DOMAIN-SUFFIX,adobelogin.com,REJECT
+DOMAIN-SUFFIX,adobedc.net,REJECT
+DOMAIN-SUFFIX,adobedtm.com,REJECT
+DOMAIN-SUFFIX,adobeccstatic.com,REJECT
+DOMAIN-SUFFIX,adobegenuine.com,REJECT
