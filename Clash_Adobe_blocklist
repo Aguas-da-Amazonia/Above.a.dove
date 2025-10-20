@@ -4,12 +4,12 @@
 # https://github.com/Giro-Da-Amazonia/Above.a.dove/issues
 # Last update: 2025-10-20
 #
-DOMAIN-SUFFIX,adobe.com,REJECT
-DOMAIN-SUFFIX,adobe.io,REJECT
-DOMAIN-SUFFIX,adobe.net,REJECT
-DOMAIN-SUFFIX,adobestats.io,REJECT
-DOMAIN-SUFFIX,adobelogin.com,REJECT
-DOMAIN-SUFFIX,adobedc.net,REJECT
-DOMAIN-SUFFIX,adobedtm.com,REJECT
-DOMAIN-SUFFIX,adobeccstatic.com,REJECT
-DOMAIN-SUFFIX,adobegenuine.com,REJECT
+DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,adobe.io
+DOMAIN-SUFFIX,adobe.net
+DOMAIN-SUFFIX,adobestats.io
+DOMAIN-SUFFIX,adobelogin.com
+DOMAIN-SUFFIX,adobedc.net
+DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,adobeccstatic.com
+DOMAIN-SUFFIX,adobegenuine.com
