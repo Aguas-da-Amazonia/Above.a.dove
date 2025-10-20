@@ -1,0 +1,50 @@
+# These entries unblock the most necessary domains needed for
+# AI generation (Firefly), downloads, etc.
+# Pop up window? Report at:
+# https://github.com/Giro-Da-Amazonia/Above.a.dove/issues
+# Last update: 2025-10-20
+
+# Adobe Whitelist Filter List (DOMAIN Type)
+# Destination: DIRECT (Bypasses proxy)
+
+# General Website
+DOMAIN,www.adobe.com,DIRECT
+
+# Adobe Downloader
+DOMAIN,ffc.adobe.io,DIRECT
+DOMAIN,ccmdls.adobe.com,DIRECT # Note: Duplicate entry removed from source list
+
+# Adobe ID Login
+DOMAIN,lcs-cops.adobe.io,DIRECT
+DOMAIN,armmf.adobe.com,DIRECT
+DOMAIN,oobe.adobe.com,DIRECT
+DOMAIN,ims-na1.adobelogin.com,DIRECT
+DOMAIN,auth.services.adobe.com,DIRECT
+DOMAIN,ims-prod06.adobelogin.com,DIRECT
+DOMAIN,ims-prod07.adobelogin.com,DIRECT
+
+# Generative AI (Firefly)
+DOMAIN,clio-assets.adobe.com,DIRECT
+DOMAIN,firefly-cliov2.adobe.com,DIRECT
+DOMAIN,firefly.adobe.com,DIRECT
+DOMAIN,firefly-acs.adobe.io,DIRECT
+DOMAIN,firefly-ae.adobe.io,DIRECT
+DOMAIN,firefly-ai.adobe.io,DIRECT
+DOMAIN,firefly-api.adobe.io,DIRECT
+DOMAIN,firefly-clio-imaging.adobe.io,DIRECT
+DOMAIN,firefly-md.adobe.io,DIRECT
+DOMAIN,firefly-ps.adobe.io,DIRECT
+DOMAIN,firefly-st.adobe.io,DIRECT
+DOMAIN,firefly.adobe.io,DIRECT
+DOMAIN,sensei-ue1.adobe.io,DIRECT
+DOMAIN,sensei-va6.adobe.io,DIRECT
+DOMAIN,sensei.adobe.io,DIRECT
+DOMAIN,senseicore-ue1.adobe.io,DIRECT
+DOMAIN,senseicore.adobe.io,DIRECT
+
+# Adobe Exchange
+DOMAIN,exchange.adobe.com,DIRECT
+DOMAIN,ccext-public.adobe.io,DIRECT
+DOMAIN,appregistry.adobe.io,DIRECT
+DOMAIN,assets.adobedtm.com,DIRECT
+DOMAIN,cc-api-data.adobe.io,DIRECT
