@@ -59,7 +59,7 @@ rule-providers:
   adobe_telemetry_block:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/Aguas-da-Amazonia/Above.a.dove/refs/heads/main/Clash_Adobe_block_list.yaml"
+    url: "https://raw.githubusercontent.com/Aguas-da-Amazonia/Above.a.dove/refs/heads/main/Clash_Adobe_blocklist.yaml"
     interval: 86400
     path: "./rule_providers/adobe_telemetry_block.yaml"
 
