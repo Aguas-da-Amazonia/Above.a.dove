@@ -2,7 +2,7 @@
 # AI generation (Firefly), downloads, etc.
 # Pop up window? Report at:
 # https://github.com/Giro-Da-Amazonia/Above.a.dove/issues
-# Last update: 2025-10-16
+# Last update: 2025-10-20
 #
 www.adobe.com
 #
