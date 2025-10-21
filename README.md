@@ -9,7 +9,7 @@ Report via [Issues](https://github.com/Giro-Da-Amazonia/Above.a.dove/issues)
 ## Usage
 
 1) install Adobe apps  
-2) install [Clash Verge](https://clashverge.net/en/), change mode from '**System Proxy**' to '**Tun mode**' and activate '**Tun mode**'  
+2) install [Clash Verge](https://clash-verge.org), change mode from '**System Proxy**' to '**Tun mode**' and activate '**Tun mode**'  
 3) add the blocklist and whitelist via URL so they auto-update in the future
 
 Depending on the type of installer you have (offline or online)if you may need to disable blocking temporarily for the time of the installation.
@@ -66,7 +66,7 @@ Most of them are harmless, and about half of them are capable of triggering a po
 when you create a rule in proxy to block ic.adobe.io
 
 
-In [Clash Verge](https://clashverge.net/en/) (available both for macOS & Windows) unlike in other proxy servers, you can use a **_Tun mode_** instead of the regular **_proxy mode_**, which will force all traffic to be routed over Clash and as a result all protocols (not just http & https) will be filtered by the rules you create - this a crusial step to make the filter list published here act as expected! 
+In [Clash Verge](https://clash-verge.org) (available both for macOS & Windows) unlike in other proxy servers, you can use a **_Tun mode_** instead of the regular **_proxy mode_**, which will force all traffic to be routed over Clash and as a result all protocols (not just http & https) will be filtered by the rules you create - this a crusial step to make the filter list published here act as expected! 
 
 <ins>Understanding the importance of DNS blocking vs /etc/hosts blocking</ins>  
 
