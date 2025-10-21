@@ -1,4 +1,5 @@
 To-Dos
 
 1 - setup video  
-2 - detection
+2 - detection video
+3 - adding rule / check
