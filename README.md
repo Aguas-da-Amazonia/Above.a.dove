@@ -75,3 +75,8 @@ In [Clash Verge](https://clashverge.net/en/) (available both for macOS & Windows
 If you want to perform the blocking centrally, instead of Clash as a proxy you can run your own DNS server - Pi-hole is a free solution.
 
 Since version 5.x Pi-hole does not support Regex in filter lists, as a consequence it's not possuble to block subdomains via filter lists (imported and updated via URL) you'll have to add the domains to be blocked by hand and click on '**Add domain as wildcard**' button in order to block each subdomain too.
+
+## FAQ
+
+I setup Clash as by the instructions, but I still get a response when I ping ic.adobe.io or nkyvg348k9.adobestats.io. Why?
+Although TUN mode forces TCP and UDP protocols being tunneled via Clash proxy (and DNS resolution too), and as such it's effectively blocking telemetry servers, ping is a special protocol called ICMP that is left untouched. Ping also needs to know what the IP address of a domain is, but the IP it get's from Clash is a faked-IP. As a consequence, you rill actually ping 192.168.0.73 instead of a real IP address. However if you setup your own DNS server like Pi-hole, you will not get a PING response at all, as a DNS server is able to respond with 'domain does not exist' - to be precise: NXDOMAIN = Non-Existent Domain error code.
