@@ -19,7 +19,7 @@ Setup video here
 
 Blocking each app one by one with a Firewall app may be time consuming, not to mentions that blocking the main app is often not enough - for example in case of Acrobat Pro on Windows. Also if you are installing new versions regularly over the years you would again need to block those too.
 
-Instead of the above steps, a simple one time central blocking is enough for the lifetime of your computer. Also it's far superior compared to /etc/hosts file blocking, which by the way became almost useless over the years. If you want to understand why, then continure reading.
+Instead of the above steps, a simple one time central blocking is enough for the lifetime of your computer. Also it's far superior compared to /etc/hosts file blocking, which by the way became almost useless over the years. If you want to understand why, then continure reading. Some apps may actually need internet access to specific servers like for Generative AI functions.
 
 ## Theory
 there are 2 major category of hosts:
