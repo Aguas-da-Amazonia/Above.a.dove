@@ -9,10 +9,11 @@ Report via [Issues](https://github.com/Giro-Da-Amazonia/Above.a.dove/issues)
 ## Usage
 
 1) install Adobe apps  
-2) install [Clash Verge](https://clash-verge.org), change mode from '**System Proxy**' to '**Tun mode**' and activate '**Tun mode**'  
-3) add the blocklist and whitelist via URL so they auto-update in the future
+2) install [Clash Verge](https://clash-verge.org)  
+3) add the profile config, change mode from '**System Proxy**' to '**Tun mode**' and activate '**Tun mode**'  
+4) if installing new Adobe apps in the future, disable Clash filtering for the time of the installation if you run into any issue, then turn back on
 
-Depending on the type of installer you have (offline or online)if you may need to disable blocking temporarily for the time of the installation.
+Setup video here
 
 ## Why would you use this method?
 
