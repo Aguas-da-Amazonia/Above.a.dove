@@ -1,7 +1,7 @@
 ---
 name: Whitelist suggestion
 about: request a domain to be unblocked
-title: ''
+title: Whitelist suggestion
 labels: Whitelist
 assignees: ''
 
