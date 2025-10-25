@@ -1,5 +1,6 @@
 To-Dos
 
-1 - setup video  
-2 - detection video
-3 - adding rule / check video
+- setup video  
+- detection video
+- adding rule / check video
+- check with VPN on top
