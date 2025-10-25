@@ -17,3 +17,8 @@ example: needed for Generative AI
 
 **Exact version of the app**
 example: Premiere 2025 25.5
+
+**Steps to reproduce **
+1. click here
+2. click there
+3. etc
